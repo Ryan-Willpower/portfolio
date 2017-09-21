@@ -1,0 +1,6 @@
+// const app = require("../app"),
+//     express = require("express")
+    
+// express.listen(process.env.PORT, process.env.IP, () => {
+//     console.log('server is running')
+// })
