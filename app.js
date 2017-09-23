@@ -9,8 +9,4 @@ app.set('view engine', 'pug')
 
 app.get('/', index)
 
-// module.exports = app
-
-app.listen(process.env.PORT, process.env.IP, () => {
-    console.log('server is running')
-})
+module.exports = app
