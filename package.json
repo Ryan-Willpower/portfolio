@@ -4,7 +4,7 @@
   "description": "Yeah.. Just my personal portfolio.",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon bin/www"
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
   "homepage": "https://github.com/Ryan-Willpower/portfolio#readme",
   "dependencies": {
     "express": "^4.15.4",
+    "node-sass-middleware": "^0.11.0",
     "pug": "^2.0.0-rc.4"
   },
   "devDependencies": {
